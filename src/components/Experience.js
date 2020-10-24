@@ -16,22 +16,19 @@ const Experience = () => {
       <Col className="text-center">
         <RiComputerLine size="4em" color="#FF8A59"/>
         <ExpTitle title="Front-end" />
-        <p className="m-0">HTML5</p>
-        <p className="m-0">CSS3</p>
-        <p className="m-0">Bootstrap</p>
-        <p className="m-0">JavaScript</p>
-        <p className="m-0">JQuery</p>
+        <p className="m-0">Web Developement</p>
         <p className="m-0">ReactJS</p>
       </Col>
       <Col className="text-center">
         <AiOutlineCloudServer size="4em" color="#FF8A59"/>
         <ExpTitle title="Back-end" />
         <p className="m-0">NodeJS</p>
-        <p className="m-0">NPM</p>
         <p className="m-0">ExpressJS</p>
         <p className="m-0">MySQL</p>
         <p className="m-0">Ruby on Rails</p>
         <p className="m-0">R Programming</p>
+        <p className="m-0">Python</p>
+        <p className="m-0">Selenium</p>
       </Col>
       <Col className="text-center">
         <AiFillTool size="4em" color="#FF8A59"/>
@@ -40,6 +37,7 @@ const Experience = () => {
         <p className="m-0">Atom</p>
         <p className="m-0">Github</p>
         <p className="m-0">LaTeX</p>
+        <p className="m-0">XCode</p>
       </Col>
     </Row>
   )

@@ -11,6 +11,12 @@ const Projects = () => {
         <h4 className="w-100 text-center font-weight-normal text-muted mt-4">Here is a collection of some of my projects</h4>
       </Row>
 
+      <Card reverse
+        image="amazon.jpg"
+        title="Amazon Price Scraper"
+        description="This project built in Python with Selenium scrapes all the prices of a certain research on Amazon, and creates a report allowing you to compare the different products."
+        websites={[{link: "https://github.com/DanielCortild/AmazonPriceTracker"}]}/>
+
       <Card
         image="covid.png"
         title="Covid-19 Tracker"

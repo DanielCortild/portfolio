@@ -1,11 +1,5 @@
 import React from 'react';
-import {Row} from 'reactstrap';
-
 import Card from './Cards/Card';
-
-let wb = {
-
-}
 
 const Teaching = () => {
   return (
