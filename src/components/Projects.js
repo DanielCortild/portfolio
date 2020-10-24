@@ -15,7 +15,7 @@ const Projects = () => {
         image="amazon.jpg"
         title="Amazon Price Scraper"
         description="This project built in Python with Selenium scrapes all the prices of a certain research on Amazon, and creates a report allowing you to compare the different products."
-        websites={[{link: "https://github.com/DanielCortild/AmazonPriceTracker"}]}/>
+        websites={[{link: "https://github.com/DanielCortild/Amazon_Price_Tracker"}]}/>
 
       <Card
         image="covid.png"
