@@ -1,8 +1,6 @@
 import React from 'react';
 import {Row, Col} from 'reactstrap';
 
-import cx from 'classnames';
-
 import styles from './Card.module.css';
 
 const Card = (props) => {

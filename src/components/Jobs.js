@@ -1,6 +1,6 @@
 import React from 'react';
 import { Row } from 'reactstrap';
-import Card from './Cards/Card';
+import Card from './Card';
 
 
 export default () => {

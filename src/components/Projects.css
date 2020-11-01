@@ -1,0 +1,43 @@
+.projects {
+  justify-content: center;
+  background: #ffffff;
+  padding: 50px;
+}
+
+@media (max-width: 425px) {
+  .projects {
+    padding: 25px;
+  }
+}
+
+.projects h1 {
+  color: #ff7b44;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.projects > .phone {
+  display: none;
+}
+
+.projects > .notPhone {
+  display: block;
+}
+
+@media (max-width: 425px) {
+  .projects > .phone {
+    display: block;
+  }
+  .projects > .notPhone {
+    display: none;
+  }
+}
+
+.projects > p {
+  color: gray;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}

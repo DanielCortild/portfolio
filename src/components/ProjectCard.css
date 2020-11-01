@@ -1,0 +1,46 @@
+.projectCard {
+  margin-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 500px;
+}
+
+.projectCard > div > div {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.projectCard  img {
+  border-bottom: 0.5px solid lightgray;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.projectCard h3 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.projectCard a {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.projectCard a > .phone {
+  display: none;
+}
+
+.projectCard a > .notPhone {
+  display: block;
+}
+
+@media (max-width: 425px) {
+  .projectCard a > .phone {
+    display: block;
+  }
+  .projectCard a > .notPhone {
+    display: none;
+  }
+}
