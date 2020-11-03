@@ -21,7 +21,7 @@ const Card = (props) => {
           <div className="text-center text-md-left d-flex flex-column flex-md-row">
             {websites ?
             websites.map( ({link, alias}, index) => 
-              <a className="my-button mb-3 mb-md-0 mr-md-3" target="_blank" href={link}>{alias ? alias : 'Visit Website'}</a>)
+              <a className="my-button mb-3 mb-md-0 mr-md-3" target="_blank" rel="noopener noreferrer" href={link}>{alias ? alias : 'Visit Website'}</a>)
             : ''}
           </div>
         </div>

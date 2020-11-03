@@ -1,7 +1,5 @@
 import React from 'react';
-import {Container, Row, Col} from 'reactstrap';
 import Typed from 'react-typed';
-
 import {FaLinkedin, FaGithub} from 'react-icons/fa';
 
 const About = () => {
