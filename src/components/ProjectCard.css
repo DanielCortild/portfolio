@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: column;
   text-align: justify;
+  margin: 0;
 }
 
 .projectCard  img {
@@ -21,6 +22,7 @@
 .projectCard h3 {
   text-align: center;
   font-weight: bolder;
+  margin-top: 8px;
 }
 
 .projectCard a {
