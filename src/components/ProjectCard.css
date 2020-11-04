@@ -5,6 +5,10 @@
   max-width: 500px;
 }
 
+.projectCard > div {
+  border-radius: 18px;
+}
+
 .projectCard > div > div {
   display: flex;
   flex-direction: column;
@@ -36,6 +40,10 @@
 
 .projectCard a > .notPhone {
   display: block;
+}
+
+.projectCard__code {
+  margin-top: 3px;
 }
 
 @media (max-width: 425px) {

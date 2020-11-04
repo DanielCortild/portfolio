@@ -18,3 +18,13 @@ Primary.args = {
                 Both are hosted on Firebase using Firebase Hosting and Firebase Functions.`,
   url: "https://amazon.danielcortild.me"
 }
+
+export const Secondary = Template.bind({});
+Secondary.args = {
+  image: "amazon.png",
+  title: "Amazon Clone",
+  description: `This Amazon Clone is built using a ReactJS frontend, and an ExpressJS backend. 
+                Both are hosted on Firebase using Firebase Hosting and Firebase Functions.`,
+  url: "https://amazon.danielcortild.me",
+  secondBtn: true
+}
