@@ -1,9 +1,9 @@
 import React from 'react';
-import { Card, CardImg, CardTitle, CardText, CardBody, Col } from 'reactstrap';
+import { Card, CardImg, CardTitle, CardText, CardBody, Col, CardFooter } from 'reactstrap';
 import Button from './Button';
 import './ProjectCard.css';
 
-const ProjectCard = ({ image, title, description, url, secondBtn }) => {
+const ProjectCard = ({ image, title, description, url, secondBtn, lastUpdated }) => {
   return (
     <Col xs={12} md={6} xl={4} className="projectCard">
       <Card>
@@ -20,6 +20,9 @@ const ProjectCard = ({ image, title, description, url, secondBtn }) => {
             <div className="phone">Code</div>
           </Button> }
         </CardBody>
+        <CardFooter>
+          <small className="text-muted text-center">Last updated on {lastUpdated}</small>
+        </CardFooter>
       </Card>
     </Col>
   )
