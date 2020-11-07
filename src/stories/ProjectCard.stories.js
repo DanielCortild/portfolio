@@ -23,8 +23,7 @@ export const Secondary = Template.bind({});
 Secondary.args = {
   image: "amazon.png",
   title: "Amazon Clone",
-  description: `This Amazon Clone is built using a ReactJS frontend, and an ExpressJS backend. 
-                Both are hosted on Firebase using Firebase Hosting and Firebase Functions.`,
+  description: "This Amazon Clone is built using a ReactJS frontend and an ExpressJS backend, and deployed on Firebase. It has full e-commerce functionality, including Stripe payment. ",
   url: "https://amazon.danielcortild.me",
   secondBtn: true
 }

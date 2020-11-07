@@ -10,7 +10,7 @@ const Projects = ({projects}) => {
       <h1 className="notPhone">Previous Projects</h1>
       <p>This is a collection of some of my previous projects</p>
       <CardDeck>
-        <Row>
+        <Row className="justify-content-md-center">
 
         {projects?.map(({image, title, description, url}) => (
           <ProjectCard
