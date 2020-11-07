@@ -10,12 +10,12 @@ import Copyright from './Components/Copyright';
 
 const projects = [
   {
-    image: 'messenger.png',
-    title: 'Realtime Message App',
+    image: 'amazon.png',
+    title: 'Amazon Clone',
     description:
-      'This project uses Realtime Firebase Firestore database to store messages. The app is built using ReactJS on the front-end, using ReactFlipMove for animations.',
-    url: 'https://messenger.danielcortild.me',
-    lastUpdated: '6th of November 2020',
+      'This Amazon Clone is built using a ReactJS frontend and an ExpressJS backend, and deployed on Firebase. It has full e-commerce functionality, including Stripe payment. ',
+    url: 'https://amazon.danielcortild.me',
+    lastUpdated: '23rd of October 2020',
   },
   {
     image: 'covid.png',
@@ -26,12 +26,12 @@ const projects = [
     lastUpdated: '30st of October 2020',
   },
   {
-    image: 'amazon.png',
-    title: 'Amazon Clone',
+    image: 'messenger.png',
+    title: 'Realtime Message App',
     description:
-      'This Amazon Clone is built using a ReactJS frontend and an ExpressJS backend, and deployed on Firebase. It has full e-commerce functionality, including Stripe payment. ',
-    url: 'https://amazon.danielcortild.me',
-    lastUpdated: '23rd of October 2020',
+      'This project uses Realtime Firebase Firestore database to store messages. The app is built using ReactJS on the front-end, using ReactFlipMove for animations.',
+    url: 'https://messenger.danielcortild.me',
+    lastUpdated: '6th of November 2020',
   },
   {
     image: 'airport.png',
